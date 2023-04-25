@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="http://www.six-interbank-clearing.com/de/pacs.008.001.02.ch.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <FIToFICstmrCdtTrf>
+      <GrpHdr>
+         <MsgId>666</MsgId>
+         <CreDtTm>2017-04-27T12:14:52Z</CreDtTm>
+         <NbOfTxs>1</NbOfTxs>
+         <IntrBkSttlmDt>2017-04-30</IntrBkSttlmDt>
+         <SttlmInf>
+            <SttlmMtd>INGA</SttlmMtd>
+         </SttlmInf>
+         <InstgAgt>
+            <FinInstnId>
+               <BIC>KBBECH22XXX</BIC>
+               <ClrSysMmbId>
+                  <ClrSysId>
+                     <Cd>CHSIC</Cd>
+                  </ClrSysId>
+                  <MmbId>007900</MmbId>
+               </ClrSysMmbId>
+            </FinInstnId>
+         </InstgAgt>
+         <InstdAgt>
+            <FinInstnId>
+               <BIC>KBBECH22XXX</BIC>
+               <ClrSysMmbId>
+                  <ClrSysId>
+                     <Cd>CHSIC</Cd>
+                  </ClrSysId>
+                  <MmbId>007900</MmbId>
+               </ClrSysMmbId>
+            </FinInstnId>
+         </InstdAgt>
+      </GrpHdr>
+      <CdtTrfTxInf>
+         <PmtId>
+            <EndToEndId>NOTPROVIDED</EndToEndId>
+            <TxId>eb9c0efc8eeb510c</TxId>
+         </PmtId>
+         <PmtTpInf>
+            <LclInstrm>
+               <Prtry>CSTPMT</Prtry>
+            </LclInstrm>
+         </PmtTpInf>
+         <IntrBkSttlmAmt Ccy="CHF">1.23</IntrBkSttlmAmt>
+         <ChrgBr>SHAR</ChrgBr>
+         <Dbtr>
+            <Nm>Kunde ZVC-ZVAV-Testkonten</Nm>
+            <PstlAdr>
+               <AdrLine>Nur für ZVC Regressionstests Adlerstrasse 10</AdrLine>
+               <AdrLine>3604 Thun</AdrLine>
+            </PstlAdr>
+         </Dbtr>
+         <DbtrAcct>
+            <Id>
+               <IBAN>CH1700790016241219571</IBAN>
+            </Id>
+         </DbtrAcct>
+         <DbtrAgt>
+            <FinInstnId>
+               <BIC>KBBECH22XXX</BIC>
+               <ClrSysMmbId>
+                  <ClrSysId>
+                     <Cd>CHSIC</Cd>
+                  </ClrSysId>
+                  <MmbId>007900</MmbId>
+               </ClrSysMmbId>
+            </FinInstnId>
+         </DbtrAgt>
+         <CdtrAgt>
+            <FinInstnId>
+               <BIC>KBBECH22XXX</BIC>
+               <ClrSysMmbId>
+                  <ClrSysId>
+                     <Cd>CHSIC</Cd>
+                  </ClrSysId>
+                  <MmbId>007900</MmbId>
+               </ClrSysMmbId>
+               <Nm>Berner Kantonalbank AG</Nm>
+               <PstlAdr>
+                  <AdrLine>Postfach</AdrLine>
+                  <AdrLine>3001 Bern</AdrLine>
+               </PstlAdr>
+            </FinInstnId>
+         </CdtrAgt>
+         <Cdtr>
+            <Nm>Kunde ZVC-ZVAV-Testkonten</Nm>
+            <PstlAdr>
+               <AdrLine>Nur für ZVC Regressionstests Adlerstrasse 10</AdrLine>
+               <AdrLine>3604 Thun</AdrLine>
+            </PstlAdr>
+         </Cdtr>
+         <CdtrAcct>
+            <Id>
+               <IBAN>CH8800790016241218487</IBAN>
+            </Id>
+         </CdtrAcct>
+      </CdtTrfTxInf>
+   </FIToFICstmrCdtTrf>
+</Document>
